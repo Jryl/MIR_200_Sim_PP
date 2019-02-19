@@ -63,7 +63,7 @@ catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 ```bash
 ### gazebo:
 roslaunch mir_gazebo mir_maze_world.launch
-rosservice call /gazebo/unpause_physics 
+rosservice call /gazebo/unpause_physics
 
 ### localization:
 roslaunch mir_navigation amcl.launch
